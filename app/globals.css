@@ -268,6 +268,17 @@ ul {
   }
 }
 
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity button {
+  border: none;
+  background: none;
+  font-size: 18px;
+}
 img {
   width: 200px;
   height: 200px;

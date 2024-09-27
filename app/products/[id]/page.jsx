@@ -1,3 +1,4 @@
+import ClientSideComponent from "@/client";
 import { notFound } from "next/navigation";
 
 export default async function ProductsDetail({ params }) {
@@ -32,8 +33,10 @@ export default async function ProductsDetail({ params }) {
           </div>
           <h6>$250.00</h6>
         </div>
-
-        <button className="addBtn">Add to cart</button>
+        <div className="btns">
+          <ClientSideComponent stock={data.stock} />
+          <button className="addBtn">Add to cart</button>
+        </div>
       </div>
     </div>
   );
