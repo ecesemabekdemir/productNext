@@ -283,3 +283,56 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.fa-star {
+  color: #ffc107;
+}
+
+.fa-star-o,
+.fa-star-half-o {
+  color: #ccc;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.product-rating {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 157px;
+  padding: 22px 16px 22px 16px;
+  background-color: #f6f8fd;
+  font-size: 18px;
+  font-weight: bold;
+  span {
+    font-weight: 700;
+    line-height: 19.84px;
+    text-align: center;
+    color: #1d2026;
+  }
+  button {
+    width: 12px;
+    height: 3.33px;
+    top: 26px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ff7e1b;
+  }
+}
+
+
+.degiscek {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
